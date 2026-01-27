@@ -1,0 +1,26 @@
+1. open your folder in VS Code.
+2. open terminal (ctrl+shift+`).
+3. npm init
+When you will apply npm init, then there will show some options, you should select 
+    i. entry point: server.js
+    ii. author name: first_name last_name
+4. npm install express
+5. npm install dotenv (for environment variable)
+6. npm install nodemon (for auto server restart)
+7. create .env file at root directory (inside the project folder by clicking +New File) and type PORT=8080 in it using VSC.
+10. create .gitignore file at root directory and type node_modules and .env in it in two separate lines.
+11. create a new file at root directory: server.js in the same way by clicking on the +File symbol.
+12. setup express app and server:
+    i. Open the server.js file and setup routes
+14. create public and views folder and create all html files in views folder.
+15. all static files (css, js, images, assets) should be inside public folder.
+16. open package.json file and under scripts section, write: "start": "nodemon server.js" in place of "start": test
+17. go to terminal and type: npm i (if node_modules folder inside the root directory does not exist), then type npm start
+18. go to a browser and open url: "http://localhost:8080/" to test your local server, and you will see your web page on the screen.
+19. In this way, after successful server setup, push it to your github:
+    i. Go to the soure control menue in VS Code on the left side of the toolbars
+    ii. Clik on Initialize Repository
+    iii. Type Initial Commit inside the message box.
+    iv. Click on the Commit button
+
+20. then deploy the project to render and you will get a public url.
