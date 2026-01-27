@@ -22,5 +22,6 @@ When you will apply npm init, then there will show some options, you should sele
     ii. Clik on Initialize Repository
     iii. Type Initial Commit inside the message box.
     iv. Click on the Commit button
+    v. Select yes, in the pop up menue.
 
 20. then deploy the project to render and you will get a public url.
