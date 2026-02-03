@@ -23,5 +23,16 @@ When you will apply npm init, then there will show some options, you should sele
     iii. Type Initial Commit inside the message box.
     iv. Click on the Commit button
     v. Select yes, in the pop up menue.
-
-20. then deploy the project to render and you will get a public url.
+    vi. Select Publish and choose Private or Public as you like
+    vii. Click on the Push button
+20. Finally, deploy the project to render and you will get a public url that you can share:
+   i. Goto render Dashboard
+   ii. Click on the New button
+   iii. Select Web Services
+   iv. Select your targeted Repository (e.g., ProfAktar/iu_csi_assignment_1)
+   v. you can change the name of web service
+   vi. Select free option
+   vii. Goto VS Code and open the .env file
+   viii. Copy the contents of .env file and paste it in the Environemnt variable field in Render
+   ix. Now Click on deploy Web Service 
+   x. Now copy the link of the web service and share
